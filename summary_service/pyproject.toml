@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "summary-service"
+version = "0.1.0"
+description = ""
+authors = ["Scott Hendrickson <scott@drskippy.net>"]
+readme = "README.md"
+packages = [{include = "summary_service"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Flask = "^3.0.0"
+openai = "^1.7.0"
+requests = "^2.31.0"
+uwsgi = "^2.0.23"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
